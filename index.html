@@ -1,1 +1,40 @@
-Hello world
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Achal - MSI Computer Camps</title>
+  <link rel="stylesheet" type="text/css" href="./assets/styles.css" />
+</head>
+
+<body>
+  <div class="header">
+    <a href="https://www.compcamps.com">
+      <img alt="msi logo" src="./assets/logo.svg" height="24px" />
+    </a>
+    <a href="./index.html">Home</a>
+    <a href="./about.html">About me</a>
+  </div>
+  <article>
+    <h1>Hello Compcamps!</h1>
+    <p>Welcome to my site!</p>
+    <div>this is block</div>
+    <span>Made by Achal</span>
+    <b>this is inline</b>
+    <i>italics</i>
+    <video controls width="1000px">
+      <source src="./assets/before-unreal.mp4" type="video/mp4" />
+      Sorry we can't load your video :(
+    </video>
+  </article>
+  <script>
+    const name = window.prompt('What is your name?')
+    document.querySelector(
+      'h1'
+    ).innerText = "Hello " + name + '!'
+  </script>
+</body>
+
+</html>

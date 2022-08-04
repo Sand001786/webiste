@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+  }
+  
+  .header {
+    background: black;
+    padding: 0.25rem;
+  }
+  
+  .header a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+  }
+  
+  article {
+    padding: 0.25rem;
+  }
